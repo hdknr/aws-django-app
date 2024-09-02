@@ -16,3 +16,4 @@ services:
       - TF_VAR_service=${SERVICE:-sample}
       - TF_VAR_env=${ENV:-devel}
       - TF_VAR_region=$AWS_REGION
+      - TF_VAR_domain_name=${DOMAIN_NAME}
