@@ -12,7 +12,7 @@ services:
       - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
       - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
       - AWS_REGION=$AWS_REGION
-      - AWS_DEFAULT_REGTION=$AWW_REGION
+      - AWS_DEFAULT_REGION=$AWS_REGION
       - TF_VAR_service=${SERVICE:-sample}
       - TF_VAR_env=${ENV:-devel}
       - TF_VAR_region=$AWS_REGION
