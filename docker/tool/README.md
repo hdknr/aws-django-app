@@ -1,0 +1,4 @@
+# tool
+
+- aws-cli
+- tofu
